@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hero Section | GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+    <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <style>
+      /* You may write styles inside this <style> tag or within `css/style.css`. */
+    </style>
+  </head>
+  <body>
+    <!-- Add your site or application content here -->
+    <main class="container">
+      <form action="" method="POST">
+          
+<div class="mb-30">
+  <label class="form-label" for="email-1">Email</label>
+
+  <div class="input-wrapper">
+    <input
+      class="input-text"
+      id="email-1"
+      type="email"
+      name="email"
+      placeholder="name@email.com"
+      aria-describedby="email-1-hint"
+    />
+
+    <button
+      class="input-icon"
+      type="button"
+      aria-label="Help about email format"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.6-1.5 1.2-1.5 2"/>
+        <circle cx="12" cy="17" r="0.75" fill="currentColor" stroke="none"/>
+      </svg>
+    </button>
+  </div>
+
+  <p id="email-1-hint" class="hint-text">This is hint text</p>
+</div>
+
+<div class="mb-30">
+  <label class="form-label" for="email-2">Email</label>
+
+  <div class="input-wrapper">
+    <input
+      class="input-text"
+      id="email-2"
+      type="email"
+      name="email"
+      placeholder="✉ name@email.com"
+      aria-describedby="email-2-hint"
+    />
+
+    <button class="input-icon" type="button" aria-label="Help about email format">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.6-1.5 1.2-1.5 2"/>
+        <circle cx="12" cy="17" r="0.75" fill="currentColor" stroke="none"/>
+      </svg>
+    </button>
+  </div>
+
+  <p id="email-2-hint" class="hint-text">This is hint text</p>
+</div>
+
+<div class="mb-30">
+  <label class="form-label" for="email-3">Email</label>
+
+  <div class="input-wrapper">
+    <input
+      class="input-text"
+      id="email-3"
+      type="email"
+      name="email"
+      placeholder="name@email.com"
+      aria-describedby="email-3-hint"
+    />
+
+    <button class="input-icon" type="button" aria-label="Help about email format">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.6-1.5 1.2-1.5 2"/>
+        <circle cx="12" cy="17" r="0.75" fill="currentColor" stroke="none"/>
+      </svg>
+    </button>
+  </div>
+
+  <p id="email-3-hint" class="hint-text">This is hint text</p>
+</div>
+
+<div class="mb-30">
+  <label class="form-label" for="email-4">Email</label>
+
+  <div class="input-wrapper">
+    <input
+      class="input-text"
+      id="email-4"
+      type="email"
+      name="email"
+      placeholder="name@email.com"
+      aria-describedby="email-4-error"
+      aria-invalid="true"
+    />
+
+    <button class="input-icon-error" type="button" aria-label="Help about email format">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.9.6-1.5 1.2-1.5 2"/>
+        <circle cx="12" cy="17" r="0.75" fill="currentColor" stroke="none"/>
+      </svg>
+    </button>
+  </div>
+
+  <p id="email-4-error" class="hint-text-error" role="alert">This is hint text</p>
+</div>
+
+      </form>
+    </main>
+
+    <!-- Attribute this challenge to yourself! -->
+    <div class="credits">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a href="https://www.greatfrontend.com/u/sagarkudu" target="_blank"
+        >Sagar Kudu</a
+      >.
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
